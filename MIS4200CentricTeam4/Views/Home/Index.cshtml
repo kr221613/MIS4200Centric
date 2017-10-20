@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Centric Consulting</h1>
+    <p class="lead">Our core values reflect our professional passions and personal convictions.</p>
+    <p><a href="https://centricconsulting.com/" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Employees</h2>
+        <p>
+            Here you can view each of Centric's current employees.
+        </p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>View Feedback</h2>
+        <p>Here you can view each of Centric's employees feedback and reviews.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Provide Feedback</h2>
+        <p>Here you can provide employees with feedback and reviews.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+    <p>@Html.ActionLink("Employees", "Index", "Employees")</p>
+    <p>@Html.ActionLink("EmployeeFeedbacks", "Index", "EmployeeFeedbacks")</p>
+    <p>@Html.ActionLink("Feedbacks", "Index", "Feedbacks")</p> 
+</div>
